@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Sarabun&display=swap');
 #content {
   max-width: 1600px;
   margin: 0 auto;
+  font-family: "Sarabun", Helvetica, sans-serif;
 }
 
 nav a {
@@ -8,6 +10,8 @@ nav a {
   color: #fbce9d;
   background-color: #090c9b;
   text-decoration: none;
+  font-family: Arial Black, Tahoma, sans-serif;
+  padding: 35px;
 }
 nav a:hover {
   background-color: #fbce9d;
@@ -34,6 +38,15 @@ main section {
   text-align: center;
 }
 
+main section h2 {
+  font-family: "Bungee Shade", Tahoma, sans-serif;
+}
+
+main section img {
+  box-sizing: border-box;
+}
+
+
 #background {
   height: 725px;
   background-color: #330f0a;
@@ -41,6 +54,9 @@ main section {
 
 body {
   background-color: whitesmoke;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -49,12 +65,19 @@ header {
 
 footer {
   background-color: #1fe5ff;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 .book {
   color: #fbce9d;
   background-color: #090c9b;
   text-decoration: none;
+  font-family: Arial Black, Tahoma, sans-serif;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover {
@@ -66,6 +89,11 @@ footer {
   color: #fbce9d;
   background-color: #090c9b;
   text-decoration: none;
+  font-family: Arial Black, Tahoma, sans-serif;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .join:hover {
@@ -76,22 +104,34 @@ footer {
 .msg {
   background-color: #330f0a;
   color: #1fe5ff;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 .home-title {
   color: #330f0a;
+  font-family: "Bungee Shade", Tahoma, sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 h4 {
   color: #090c9b;
 }
 
+h2 {
+  margin: 0;
+}
+
 .msg h2 {
   color: #fbce9d;
+  font-family: "Bungee Shade", Tahoma, sans-serif;
 }
 
 .msg p {
   color: #1fe5ff;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 
 footer h3 {
@@ -101,6 +141,7 @@ footer h3 {
 footer a {
   color: #330f0a;
   text-decoration: none;
+  font-family: Arial Black, Tahoma, sans-serif;
 }
 
 footer a:hover {
@@ -109,8 +150,25 @@ footer a:hover {
 
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 footer h3 a:hover {
   text-decoration: underline;
+}
+
+#logo_link {
+  padding-top: 5px;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid #d9c2a3;
 }
