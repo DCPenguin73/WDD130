@@ -18,8 +18,14 @@ nav a:hover {
   color: #090c9b;
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
 #hero-msg h1 {
   text-align: center;
+  color: #1fe5ff;
 }
 
 #hero-msg h4 {
@@ -61,6 +67,8 @@ body {
 
 header {
   background-color: #1fe5ff;
+  display: grid;
+  grid-template-columns: 150px auto;
 }
 
 footer {
@@ -116,7 +124,7 @@ footer {
 }
 
 h4 {
-  color: #090c9b;
+  color: #fbce9d;
 }
 
 h2 {
@@ -159,6 +167,8 @@ footer h3 a:hover {
 
 #logo_link {
   padding-top: 5px;
+  justify-self: center;
+  align-self: center;
 }
 
 footer .social img {
@@ -171,4 +181,23 @@ footer .social img {
 
 .card-img {
   border: 10px solid #d9c2a3;
+}
+
+#hero {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: -100px; 
+}
+
+#hero-box {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  z-index: -1;
+
+}
+
+#hero-msg {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 100px;
 }
