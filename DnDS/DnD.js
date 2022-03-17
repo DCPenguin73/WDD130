@@ -34,7 +34,7 @@ function match(data) {
     DnDName = document.createElement('h3');
     DnDName.textContent = data.name;
     article.appendChild(DnDName);
-    console.log(data.spells[0].results);
+    // console.log(data.spells[0].results);
     switch (document.getElementById('sortBy').value) {
         case 'races': 
             raceSpeed = document.createElement('h5');
@@ -61,12 +61,12 @@ function match(data) {
             classDie = document.createElement('h5');
             classDie.textContent = "Hit die: 1d" + data.hit_die;
             article.appendChild(classDie);
-            classSpell = document.createElement('h5');
-            classSpell.textContent = 'Spells:';
-            for(let i=0; i < data.spells.length; i++) {
-            classSpell.textContent += ' ' + data.spells[i].name;
-            }
-            article.appendChild(classSpell);
+            // classSpell = document.createElement('h5');
+            // classSpell.textContent = 'Spells:';
+            // for(let i=0; i < data.spells.length; i++) {
+            // classSpell.textContent += ' ' + data.spells[i].name;
+            // }
+            // article.appendChild(classSpell);
             break;
         case 'feats':
         case 'skills':
