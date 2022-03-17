@@ -62,4 +62,38 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
+}
+
+
+
+
+.top_image{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.bottom_image{
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+.title{
+    color: #E92420;
+    text-align: center;
+}
+
+h2{
+    color: #9046CF; 
+}
+
+h3{
+    color: #E92420;
+    text-align: center;
+}
+
+h5{
+    color: #9046CF; 
+
+}
