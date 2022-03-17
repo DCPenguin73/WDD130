@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
     font-family:  Helvetica, sans-serif; 
     /* add fonts */
     background-color: #02020A;
+    font-family: 'IM Fell English SC', serif;
 }
 
 header{
@@ -82,18 +84,25 @@ footer {
 .title{
     color: #E92420;
     text-align: center;
+    font-family: 'IM Fell English SC', serif;
 }
 
 h2{
     color: #9046CF; 
+    font-family: 'IM Fell English SC', serif;
 }
 
 h3{
     color: #E92420;
     text-align: center;
+    font-family: 'IM Fell English SC', serif;
 }
 
 h5{
     color: #9046CF; 
+    font-family: 'IM Fell English SC', serif;
+}
 
+.main_text{
+    margin: 3%;
 }
