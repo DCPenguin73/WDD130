@@ -109,3 +109,17 @@ h5{
 .main_text{
     margin: 3%;
 }
+
+
+
+
+#temples{
+    text-align: left;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.stats{
+    padding-left: 3%;
+    padding-right: 3%;
+}
