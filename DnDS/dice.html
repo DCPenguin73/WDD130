@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dungeons & Dragons Stuff | Dice</title>
-    <!-- <script src="DnD.js" defer></script> -->
+    <script src="dice.js" defer></script>
     <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
@@ -25,36 +25,40 @@
         <img class="top_image" src="images/dices.jpg" alt="dice">
         <h1 class="title">Dice</h1>
     <section>
-        <h2>Dice Roller</h2>
-        <div id="grid">
-            <div class="dice">
-                <button id="d4">D4</button>
-                <p></p>
+        <h2 class="stats">Dice Roller</h2>
+        <div>
+        <div class="row1">
+            <div id="c1" class="dice">
+                <button id="d4" class="b">D4</button>
+                <p id="r4" class="result"></p>
             </div>
-            <div class="dice">
-                <button id="d4">D6</button>
-                <p></p>
+            <div id="c2" class="dice">
+                <button id="d6" class="b">D6</button>
+                <p id="r6" class="result"></p>
             </div>
-            <div class="dice">
-                <button id="d4">D8</button>
-                <p></p>
+            <div id="c3" class="dice">
+                <button id="d8" class="b">D8</button>
+                <p id="r8" class="result"></p>
             </div>
-            <div class="dice">
-                <button id="d4">10</button>
-                <p></p>
+        </div>
+        <div class="row2">
+            <div id="c4" class="dice">
+                <button id="d10" class="b">D10</button>
+                <p id="r10" class="result"></p>
             </div>
-            <div class="dice">
-                <button id="d4">D12</button>
-                <p></p>
+            <div id="c5" class="dice">
+                <button id="d12" class="b">D12</button>
+                <p id="r12" class="result"></p>
             </div>
-            <div class="dice">
-                <button id="d4">D20</button>
-                <p></p>
+            <div id="c6" class="dice">
+                <button id="d20" class="b">D20</button>
+                <p id="r20" class="result"></p>
             </div>
-            <div class="dice">
-                <button id="d4">D100</button>
-                <p></p>
+            <div id="c7" class="dice">
+                <button id="d100" class="b">D100</button>
+                <p id="r100" class="result"></p>
             </div>
+        </div>
         </div>
         
     </section>
